@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');	*{-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color: transparent;}
+	.body_hide {
+	opacity: 0;
+	transition: 0.8s opacity ease-in-out;}
+.body_visible {
+	opacity: 1;}
+				body{margin:0; padding:0; background: white;}
+				html{margin:0; padding:0;}
+				.a{height:150px; width:150px;}
+				.b{height:150px; width:150px;}
+				.c{height:150px; width:150px;
+			   border-radius:100%;
+			   margin-left:75px;
+			   margin-top:-20px;
+			   position:absolute;}
+				#d{height:153px; width:153px;}
+				#solo{height:150px; width:150px;z-index:-4999}
+			
+				table{position:absolute;
+top:45%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%,-55%)}
+				#d{margin-left:1%;}
+				td{border-radius:100%;}
+				li{list-style-type:none;}
+				#p{background-image: linear-gradient(125deg,red,blue,red,blue,red,blue);
+    background-size: 900% 900%;
+    text-align: center;
+    font-size:35px;
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    animation: gradientanim 14s infinite;}
+    @keyframes gradientanim {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 70% 60%;}
+    100%{background-position: 0% 50%;}}
+    #sp{background:   
+    linear-gradient(45deg,#0018ff,#0081ff);
+    text-align: center;
+    font-size:20px;
+    color:white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding:4px;
+    position:fixed;
+    width:100%;
+    bottom:0;}
+    
+    #tel{border-radius: 31px;
+    background: 
+    linear-gradient(14deg,#0081ff,#40b6ff);
+     text-align: center;
+     width:70%;
+     padding:30px;
+     transition:0.6s ease all;
+     position: absolute;
+     top:36.3%;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size:20px;
+     opacity:0;
+     z-index:-5;
+     box-shadow:none;
+     margin-left:4%;}
+     .item{border-radius:100%;}
+     .item:hover #tel{opacity:1;z-index:5000;}     
+     img{border-radius:100%;
+         transition:0.15s;}
+					img:active{transform:scale(0.9);}
